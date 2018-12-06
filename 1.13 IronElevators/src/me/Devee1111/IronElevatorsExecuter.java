@@ -42,7 +42,7 @@ public class IronElevatorsExecuter implements CommandExecutor {
 					p.sendMessage(ChatColor.translateAlternateColorCodes('&', config.getString("messages.reloaded")));
 					return true;
 				} else {
-					p.sendMessage(ChatColor.RED + "You do not have permission to run this command.");
+					p.sendMessage(ChatColor.translateAlternateColorCodes('&',config.getString("messages.nopermission"));
 					return true;
 				}
 			} else {
