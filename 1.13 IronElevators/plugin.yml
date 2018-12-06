@@ -1,0 +1,18 @@
+name: IronElevators
+main: me.Devee1111.IronElevatorsMain
+version: 2.1
+api-version: 1.13
+description: Iron elevators updated!
+authors: [Devee1111, ScarleTomato]
+commands:
+  ier:
+    description: Reload the IronElevators config.
+    usage: /ier
+    aliases: [IronElevatorsReload, IronReload, ElevatorsReload]
+permissions:
+ ironelevators.use:
+  default: true
+  description: Allow a player to teleport between elevators!
+ ironelevators.reload:
+   default: op
+   description: Ability to run ier
